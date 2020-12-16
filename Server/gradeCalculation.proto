@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+service GradeCalculation {
+  rpc CalculateGrade(Student) returns (Grade) {}
+}
+
+message Student {
+  string fio = 1;
+  int32 gradeMathOne = 2;
+  int32 gradeMathTwo = 3;
+  int32 gradeMathThree = 4;
+}
+
+message Grade {
+  int32 finalMathGrade = 1;
+}
