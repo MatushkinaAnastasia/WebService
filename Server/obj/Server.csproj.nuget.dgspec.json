@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.34.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

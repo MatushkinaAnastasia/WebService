@@ -3,6 +3,7 @@ using Grpc.Reflection;
 using Grpc.Reflection.V1Alpha;
 using System;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace Server
 {
@@ -10,8 +11,8 @@ namespace Server
 	{
 		public static async Task Main(string[] args)
 		{
-			string ip = "192.168.1.51";
-			int port = 5001;
+			var ip = ConfigurationManager.AppSettings.Get("IP");
+			int port = int.Parse(ConfigurationManager.AppSettings.Get("port"));
 
 			var reflectionServiceImpl = new ReflectionServiceImpl(GradeCalculation.Descriptor, ServerReflection.Descriptor);
 
@@ -19,9 +20,9 @@ namespace Server
 			{
 				Services = 
 				{
-					GradeCalculation.BindService(new GradeCalculationService()),
+					GradeCalculation.BindService(new GradeCalculationService()), //для сервиса устанвливаем обработчик
 					ServerReflection.BindService(reflectionServiceImpl)
-				}, //для сервиса устанвливаем обработчик
+				}, 
 				Ports = { new ServerPort(ip, port, ServerCredentials.Insecure) }
 			};
 			server.Start();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tM3wlanB+Q9GqV9OfbRjcxRW+0AD1+F8U0YO5t8bTo8CIPRxBfYHiLRL+L3ajMhFYdhVc1GTwgKojl3fV1vFfA==",
+  "dgSpecHash": "TPZLOMHe0LnZDHlVOfuXr/MjCEmVczLuhy1N+iCMwb0VO9vCp67eHIjKgFSD/CK6dA5dBN+An1cdsQ0TD5TVzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nasya\\Desktop\\ТРРП\\лр3\\Lab3\\Server\\Server.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,17 @@
     "C:\\Users\\nasya\\.nuget\\packages\\grpc.core.api\\2.34.0\\grpc.core.api.2.34.0.nupkg.sha512",
     "C:\\Users\\nasya\\.nuget\\packages\\grpc.reflection\\2.34.0\\grpc.reflection.2.34.0.nupkg.sha512",
     "C:\\Users\\nasya\\.nuget\\packages\\grpc.tools\\2.34.0\\grpc.tools.2.34.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
     "C:\\Users\\nasya\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\nasya\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    "C:\\Users\\nasya\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\nasya\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

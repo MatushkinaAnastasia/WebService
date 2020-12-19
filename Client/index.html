@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lange="ru">
+<link href="/public/css/style.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Grade</title>
+  <script type="method" src="server.js"></script>
+</head>
+<body>
+        <form method="POST" action="/index">
+            <fieldset>
+                <legend>Оценка по предмету</legend>
+                <div>
+                    <label for="fio">ФИО студента:</label>
+                    <input required name="fio" type="text" value=""></input>
+                </div>
+                <div>
+                    <label>Оценка 1 трим:</label>
+                    <input required name="gradeOne" type="number" value=""></input>
+                </div>
+                <div>
+                    <label>Оценка 2 трим:</label>
+                    <input required name="gradeTwo" type="number"value=""></input>
+                </div>
+                <div>
+                    <label>Оценка 3 трим:</label>
+                    <input required name="gradeThree" type="number" value=""></input>
+                </div>
+                <button type="submit">Узнать оценку</button>
+            </fieldset>
+        </form>
+</div>
+</body>
+</html>
